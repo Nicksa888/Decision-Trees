@@ -88,8 +88,10 @@ rpart
 
 # In the plot, the coloured boxes indicate the nodes, while the black lines indicate the branches.
 # The plot consists of nodes and branches that one can logically take in a journey of classifying previously unclassified data.
-# The root node is at the very top. It indicates that 33% of the data at ths partition will be flagged for further review. As this probability is less than 50%, then the node is labeled as 'No Plan Check'. The 100% informs us that this partition contains 100% of the data.
-# If the left hand route is followed, the outcome is that where the permit type is categorised as either plumbing, electrical, HVAC or Pressure Vessel, then probability of further review being flagged for a new application is just 10%, and this outcome comprises 57% of the data.
+# The root node is at the very top. It indicates that 33% of the data at ths partition will be flagged for further review. As this probability is less than 50%, then the 
+# node is labeled as 'No Plan Check'. The 100% informs us that this partition contains 100% of the data.
+# If the left hand route is followed, the outcome is that where the permit type is categorised as either plumbing, electrical, HVAC or Pressure Vessel, then probability of 
+# further review being flagged for a new application is just 10%, and this outcome comprises 57% of the data.
 
 ##############
 # Prediction #
